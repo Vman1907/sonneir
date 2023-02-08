@@ -1,0 +1,130 @@
+@font-face {
+    font-family: Canela thin;
+    src: url('../../public/font/Canela/Canela-Thin\ [TheFontsMaster.com].otf');
+}
+
+@font-face {
+    font-family: Untitiled thin;
+    src: url('../../public/font/UntitledSans-Light.otf');
+}
+
+@font-face {
+    font-family: Canela light;
+    src: url('../../public/font/Canela/Canela-Light\ [TheFontsMaster.com].otf');
+}
+
+.fr-wrapper{
+    padding-top: 3rem;
+    overflow-x: hidden;
+}
+
+.fr-wrapper>span{
+    font-family: Untitiled thin;
+    font-size: 2rem;
+    margin-left: 7vw;
+}
+
+.fr-wrapper .col-lg-4{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.fr-wrapper a{
+    display: flex;
+}
+
+.fr-wrapper .bg-pic-3{
+    background-image: url('../assets/SAICHI.jpg');
+    width: 30vw;
+    height: 30vw;
+    min-width: 300px;
+    min-height: 300px;
+    background-size: 100%;
+    background-position: center;
+    transition: 0.5s;
+    cursor:pointer;
+}
+
+.fr-wrapper .bg-pic-1{
+    background-image: url('../assets/RAYA.jpg');
+    width: 30vw;
+    min-width: 300px;
+    height: 30vw;
+    min-height: 300px;
+    background-size: 100%;
+    background-position: center;
+    transition: 0.5s;
+    cursor:pointer;
+}
+
+.fr-wrapper .bg-pic-2{
+    background-image: url('../assets/SHEZA.jpg');
+    width: 30vw;
+    min-width: 300px;
+    height: 30vw;
+    min-height: 300px;
+    background-size: 100%;
+    background-position: center;
+    transition: 0.5s;
+    cursor:pointer;
+}
+
+.fr-wrapper .bg-pic-4{
+    background-image: url('../assets/BIRGIT.jpg');
+    width: 30vw;
+    min-width: 300px;
+    height: 30vw;
+    min-height: 300px;
+    background-size: 100%;
+    background-position: center;
+    transition: 0.5s;
+    cursor:pointer;
+}
+
+.fr-wrapper .bg-pic-5{
+    background-image: url('../assets/ANJA.jpg');
+    width: 30vw;
+    min-width: 300px;
+    height: 30vw;
+    min-height: 300px;
+    background-size: 100%;
+    background-position: center;
+    transition: 0.5s;
+    cursor:pointer;
+}
+
+.fr-wrapper .bg-pic-6{
+    background-image: url('../assets/JaideLehenga.png');
+    width: 30vw;
+    min-width: 300px;
+    height: 30vw;
+    min-height: 300px;
+    background-size: 100%;
+    background-position: center;
+    transition: 0.5s;
+    cursor:pointer;
+}
+.fr-wrapper .bg-pic-7{
+    background-image: url('../assets/Utsa1.png');
+    width: 30vw;
+    min-width: 300px;
+    height: 30vw;
+    min-height: 300px;
+    background-size: 100%;
+    background-position: center;
+    transition: 0.5s;
+    cursor:pointer;
+}
+
+.fr-wrapper .row .col-lg-4 .bg-pic-1:hover,
+.fr-wrapper .row .col-lg-4 .bg-pic-2:hover,
+.fr-wrapper .row .col-lg-4 .bg-pic-3:hover,
+.fr-wrapper .row .col-lg-4 .bg-pic-4:hover,
+.fr-wrapper .row .col-lg-4 .bg-pic-5:hover,
+.fr-wrapper .row .col-lg-4 .bg-pic-6:hover{
+    background-size: 110%;
+    transition: 0.5s;
+}

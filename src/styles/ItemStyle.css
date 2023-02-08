@@ -1,0 +1,188 @@
+@font-face {
+    font-family: Canela thin;
+    src: url('../../public/font/Canela/Canela-Thin\ [TheFontsMaster.com].otf');
+}
+
+@font-face {
+    font-family: Untitiled thin;
+    src: url('../../public/font/UntitledSans-Light.otf');
+}
+
+@font-face {
+    font-family: Canela light;
+    src: url('../../public/font/Canela/Canela-Light\ [TheFontsMaster.com].otf');
+}
+
+.item-wrapper {
+    overflow-x: hidden;
+}
+
+.item-wrapper>span{
+    font-family: Untitiled thin;
+    font-size: 2rem;
+    margin-left: 7vw;
+}
+
+.item-wrapper .row{
+    margin-top: 5rem;
+}
+
+.item-wrapper .row .col-lg-4 div:nth-child(1),
+.item-wrapper .row .col-lg-4 div:nth-child(2){
+    margin-left: 1rem;
+    display: flex;
+}
+
+.item-wrapper .row .col-lg-4 div:nth-child(1) img{
+    width: 100%;
+    max-width: 450px;
+}
+
+.item-wrapper .row .col-lg-4 div:nth-child(2) img{
+    width: 100px;
+    margin-top: 2rem;
+    margin-right: 1rem;
+}
+
+.item-wrapper .row .col-lg-5{
+    display: flex;
+    flex-direction: column;
+    font-family: Untitiled thin;
+}
+
+.item-wrapper .row .col-lg-5>span{
+    margin-bottom: 1rem;
+}
+
+.item-wrapper .row .col-lg-5 .inner-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.item-wrapper .row .col-lg-5 .inner-content .content{
+    display: flex;
+    flex-direction: column;
+}
+
+.item-wrapper .row .col-lg-5 .inner-content .content span:nth-child(1),
+.item-wrapper .row .col-lg-5 .inner-content .content span:nth-child(3),
+.item-wrapper .row .col-lg-5 .inner-content .content span:nth-child(5),
+.item-wrapper .row .col-lg-5 .inner-content .content span:nth-child(7){
+    color: #ABAB02;
+    margin: 2rem 0 0 0;
+}
+
+.item-wrapper .btn-container{
+    margin: 4rem 0;
+    background-color: #d1d1bd;
+    width: max-content;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.item-wrapper .btn-container span{
+    font-family: Untitied thin;
+    padding: 0 2rem;
+    font-size: 1.25rem;
+    position: relative;
+    top: 2px;
+    display: flex;
+    align-items: center;
+}
+
+.item-wrapper .btn-container2{
+    margin: 4rem 0;
+    background-color: #d1d1bd;
+    width: max-content;
+    border-radius: 10px;
+}
+
+.item-wrapper .btn-container2 div{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-wrapper .last{
+    margin-bottom: 1rem!important;
+}
+
+.item-wrapper .btn-container2 span{
+    margin-left: 2.5rem;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    font-size: 1.25rem;
+    color: #fff;
+    font-family: Untitiled thin;
+}
+
+.item-wrapper .btn{
+    width: 100%;
+}
+
+.item-wrapper .btn{
+    /* margin-left: 12.7vw;
+    margin-top: 2rem; */
+    border:none;
+    outline: none;
+    background-color: #fff;
+    border-radius: 10px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.116);
+}
+
+.item-wrapper .btn a{
+    text-decoration: none;
+    color: #d1d1bd!important;
+}
+
+.item-wrapper .aspect{
+    display: flex;
+    flex-direction: column;
+    margin: 4rem 12.7vw;
+}
+
+.item-wrapper .aspect span:nth-child(1){
+    color: #ABAB02;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 767px){
+
+    .item-wrapper .row .col-lg-5{
+        margin-top: 5rem;
+        padding: 0 3rem;
+    }
+
+    .item-wrapper .btn{
+        margin: auto;
+    }
+
+    .item-wrapper .btn-container{
+        display: flex;
+        justify-content: center;
+        margin-top: 4rem;
+        margin: 4rem auto;
+    }
+
+    .item-wrapper .btn-container2{
+        margin: 4rem auto;
+    }
+
+    .item-wrapper .row .col-lg-4 div:nth-child(1){
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .item-wrapper .btn-container span{
+        position: relative;
+        top: 7px;
+    }
+}

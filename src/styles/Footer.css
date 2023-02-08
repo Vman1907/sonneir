@@ -1,0 +1,152 @@
+@font-face {
+    font-family: Canela thin;
+    src: url('../../public/font/Canela/Canela-Thin\ [TheFontsMaster.com].otf');
+}
+
+@font-face {
+    font-family: Untitiled thin;
+    src: url('../../public/font/UntitledSans-Light.otf');
+}
+
+.footer{
+    margin-top: 3rem;
+    background-color: #fff;
+}
+
+.footer .header{
+    display: flex;
+    width: 100%;
+    background-color: #D1D1BD;
+    padding: 1rem 2rem;
+    justify-content: center;
+    text-align: center;
+    font-family: Canela thin;
+    color: #fff;
+    font-size: 2rem;
+}
+
+.footer .header span{
+    margin: 0 0.5rem;
+}
+
+.footer .header a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer>img{
+    position: absolute;
+    margin: 2rem;
+}
+
+.footer .footer-content{
+    margin-top: 147px;
+}
+
+.footer .footer-content a{
+    color: #000;
+    text-decoration: none;
+}
+
+.footer .footer-content .content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.footer .footer-content .content .social{
+    display: flex;
+    flex-direction: column;
+    margin: 0 3rem;
+}
+
+.footer .footer-content .content .social span:nth-child(1){
+    font-family: Canela thin;
+    font-size: 2rem;
+}
+
+.footer .footer-content .content .social span:nth-child(2),
+.footer .footer-content .content .social span:nth-child(3),
+.footer .footer-content .content .social span:nth-child(4),
+.footer .footer-content .content .social span:nth-child(5){
+    font-family: Untitiled thin;
+    font-size: 1.25rem;
+
+}
+
+.footer .footer-content .content .resources{
+    display: flex;
+    flex-direction: column;
+    margin: 0 3rem;
+}
+
+.footer .footer-content .content .resources span:nth-child(1){
+    font-family: Canela thin;
+    font-size: 2rem;
+}
+
+.footer .footer-content .content .resources span:nth-child(2),
+.footer .footer-content .content .resources span:nth-child(3),
+.footer .footer-content .content .resources span:nth-child(4){
+    font-family: Untitiled thin;
+    font-size: 1.25rem;
+}
+
+.footer .footer-content .content img{
+    margin-right: 1rem;
+    width: 20px;
+}
+
+.footer .footer-content .content .social img{
+    width: 25px;
+}
+
+.footer .footer-content .content span{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0.5rem 0;
+}
+
+.footer .footer-content .content .pages{
+    display: flex;
+    flex-direction: column;
+    margin: 0 3rem;
+}
+
+.footer .footer-content .content .pages span:nth-child(1){
+    font-family: Canela thin;
+    font-size: 2rem;
+}
+
+.footer .footer-content .content .pages span:nth-child(2),
+.footer .footer-content .content .pages span:nth-child(3),
+.footer .footer-content .content .pages span:nth-child(4),
+.footer .footer-content .content .pages span:nth-child(5){
+    font-family: Untitiled thin;
+    font-size: 1.25rem;
+}
+
+.footer .copyright{
+    display: flex;
+    justify-content: center;
+    font-family: Untitiled thin;
+    margin: 4rem 0 2rem;
+}
+
+@media only screen and (max-width: 990px){
+
+    .footer .footer-content{
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer .footer-content .content>div{
+        margin-bottom: 2rem!important;
+    }
+
+    .footer .footer-content .content{
+        flex-direction: column;
+    }
+}

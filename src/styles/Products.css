@@ -1,0 +1,104 @@
+@font-face {
+    font-family: Canela thin;
+    src: url('../../public/font/Canela/Canela-Thin\ [TheFontsMaster.com].otf');
+}
+
+@font-face {
+    font-family: Untitiled thin;
+    src: url('../../public/font/UntitledSans-Light.otf');
+}
+
+@font-face {
+    font-family: Canela light;
+    src: url('../../public/font/Canela/Canela-Light\ [TheFontsMaster.com].otf');
+}
+
+.product-wrapper{
+    margin-top: 100px;
+}
+
+.product-wrapper a {
+    text-decoration: none;
+}
+
+.product-wrapper .bg-pic1{
+    display: flex;
+    background-image: url('../assets/FR.png');
+    padding-bottom: 2rem;
+    background-color: aliceblue;
+    margin: 1rem 0;
+    font-size: 2.5rem;
+    background-position: 55%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    transition: 0.3s;
+    font-family: Untitiled thin;
+    color: #fff;
+    cursor: pointer;
+    height: 55vh;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+.product-wrapper .bg-pic2{
+    display: flex;
+    background-image: url('../assets/FR2.png');
+    padding-bottom: 2rem;
+    background-color: aliceblue;
+    margin: 1rem 0;
+    font-size: 2.5rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    transition: 0.3s;
+    font-family: Untitiled thin;
+    color: #fff;
+    cursor: pointer;
+    height: 400px;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+.product-wrapper .bg-pic3{
+    display: flex;
+    background-image: url('../assets/FR3.png');
+    padding-bottom: 2rem;
+    background-color: aliceblue;
+    margin: 1rem 0;
+    font-size: 2.5rem;
+    background-position: 80% ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    transition: 0.3s;
+    font-family: Untitiled thin;
+    color: #fff;
+    cursor: pointer;
+    height: 400px;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+
+.product-wrapper .bg-pic4{
+    display: flex;
+    background-image: url('../assets/Rectangle\ 18.png');
+    padding-bottom: 2rem;
+    background-color: aliceblue;
+    margin: 1rem 0;
+    font-size: 2.5rem;
+    background-position: 80% ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    transition: 0.3s;
+    font-family: Untitiled thin;
+    color: #fff;
+    cursor: pointer;
+    height: 400px;
+    justify-content: center;
+    align-items: flex-end;
+    background-position: 50%;
+}

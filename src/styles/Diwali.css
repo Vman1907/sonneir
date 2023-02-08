@@ -1,0 +1,155 @@
+@font-face {
+    font-family: Canela thin;
+    src: url('../../public/font/Canela/Canela-Thin\ [TheFontsMaster.com].otf');
+}
+
+@font-face {
+    font-family: Untitiled thin;
+    src: url('../../public/font/UntitledSans-Light.otf');
+}
+
+@font-face {
+    font-family: Canela light;
+    src: url('../../public/font/Canela/Canela-Light\ [TheFontsMaster.com].otf');
+}
+
+.fr-wrapper{
+    padding-top: 3rem;
+    overflow-x: hidden;
+}
+
+.fr-wrapper>span{
+    font-family: Untitiled thin;
+    font-size: 2rem;
+    margin-left: 7vw;
+}
+
+.fr-wrapper .col-lg-4{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.fr-wrapper a{
+    display: flex;
+}
+
+.fr-wrapper .bg-pic-3{
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/sonnier-74b9d.appspot.com/o/IMG_2166.JPG?alt=media&token=50224ce2-2ca8-4dd8-947b-037a17f33e21');
+    width: 30vw;
+    height: 30vw;
+    min-width: 300px;
+    min-height: 300px;
+    background-size: 100%;
+    background-position: center;
+    transition: 0.5s;
+    cursor:pointer;
+}
+
+.fr-wrapper .bg-pic-1{
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/sonnier-74b9d.appspot.com/o/IMG_2166.JPG?alt=media&token=46ffed8a-2f1b-4f0b-85d4-dab65d674e02');
+    width: 30vw;
+    min-width: 300px;
+    height: 30vw;
+    min-height: 300px;
+    background-size: 100%;
+    background-position: center;
+    transition: 0.5s;
+    cursor:pointer;
+}
+
+.fr-wrapper .bg-pic-2{
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/sonnier-74b9d.appspot.com/o/IMG_1579.JPG?alt=media&token=156bee94-24a6-490b-ae6b-8441967d9f94');
+    width: 30vw;
+    min-width: 300px;
+    height: 30vw;
+    min-height: 300px;
+    background-size: 100%;
+    background-position: center;
+    transition: 0.5s;
+    cursor:pointer;
+}
+
+.fr-wrapper .bg-pic-4{
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/sonnier-74b9d.appspot.com/o/IMG_1489.JPG?alt=media&token=a20ac09e-8ea6-4189-a017-fb7e6c1dffd4');
+    width: 30vw;
+    min-width: 300px;
+    height: 30vw;
+    min-height: 300px;
+    background-size: 100%;
+    background-position: center;
+    transition: 0.5s;
+    cursor:pointer;
+}
+
+.fr-wrapper .bg-pic-5{
+    background-image: url('../assets/PratichiLehenga.png');
+    width: 30vw;
+    min-width: 300px;
+    height: 30vw;
+    min-height: 300px;
+    background-size: 100%;
+    background-position: center;
+    transition: 0.5s;
+    cursor:pointer;
+}
+
+.fr-wrapper .bg-pic-6{
+    background-image: url('../assets/VELA.JPG');
+    width: 30vw;
+    min-width: 300px;
+    height: 30vw;
+    min-height: 300px;
+    background-size: 100%;
+    background-position: center;
+    transition: 0.5s;
+    cursor:pointer;
+}
+.fr-wrapper .bg-pic-7{
+    background-image: url('../assets/Utsa1.png');
+    width: 30vw;
+    min-width: 300px;
+    height: 30vw;
+    min-height: 300px;
+    background-size: 100%;
+    background-position: center;
+    transition: 0.5s;
+    cursor:pointer;
+}
+.fr-wrapper .bg-pic-8{
+    background-image: url('../assets/AAPTI.JPG');
+    width: 30vw;
+    min-width: 300px;
+    height: 30vw;
+    min-height: 300px;
+    background-size: 100%;
+    background-position: center;
+    transition: 0.5s;
+    cursor:pointer;
+}
+.fr-wrapper .bg-pic-9{
+    background-image: url('../assets/SAAJ.JPG');
+    width: 30vw;
+    min-width: 300px;
+    height: 30vw;
+    min-height: 300px;
+    background-size: 100%;
+    background-position: center;
+    transition: 0.5s;
+    cursor:pointer;
+}
+
+.fr-wrapper .row .col-lg-4 .bg-pic-1:hover,
+.fr-wrapper .row .col-lg-4 .bg-pic-2:hover,
+.fr-wrapper .row .col-lg-4 .bg-pic-3:hover,
+.fr-wrapper .row .col-lg-4 .bg-pic-4:hover,
+.fr-wrapper .row .col-lg-4 .bg-pic-5:hover,
+.fr-wrapper .row .col-lg-4 .bg-pic-6:hover,
+.fr-wrapper .row .col-lg-4 .bg-pic-7:hover,
+.fr-wrapper .row .col-lg-4 .bg-pic-8:hover,
+.fr-wrapper .row .col-lg-4 .bg-pic-9:hover{
+    background-size: 110%;
+    transition: 0.5s;
+}

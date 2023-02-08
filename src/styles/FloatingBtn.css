@@ -1,0 +1,185 @@
+@-webkit-keyframes come-in {
+    0% {
+      -webkit-transform: translatey(100px);
+              transform: translatey(100px);
+      opacity: 0;
+    }
+    30% {
+      -webkit-transform: translateX(50px) scale(0.4);
+              transform: translateX(50px) scale(0.4);
+    }
+    70% {
+      -webkit-transform: translateX(0px) scale(1.2);
+              transform: translateX(0px) scale(1.2);
+    }
+    100% {
+      -webkit-transform: translatey() scale(1);
+              transform: translatey(0) scale(1);
+      opacity: 1;
+    }
+  }
+  @keyframes come-in {
+    0% {
+      -webkit-transform: translatey(100px);
+              transform: translatey(100px);
+      opacity: 0;
+    }
+    30% {
+      -webkit-transform: translateX(50px) scale(0.4);
+              transform: translateX(50px) scale(0.4);
+    }
+    70% {
+      -webkit-transform: translateX(0px) scale(1.2);
+              transform: translateX(0px) scale(1.2);
+    }
+    100% {
+      -webkit-transform: translatey(0px) scale(1);
+              transform: translatey(0px) scale(1);
+      opacity: 1;
+    }
+  }
+
+  @keyframes rotate {
+    0%{transform: rotate(45deg);}
+    100%{transform: rotate(90deg);}
+  }
+  @keyframes rotate-back {
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(45deg);}
+  }
+  
+  .floating-container {
+    position: fixed;
+    width: 100px;
+    height: 300px;
+    bottom: 0;
+    right: 0;
+    margin: 35px 25px;
+    z-index: 10;
+  }
+  /* .floating-container:hover {
+    height: 300px;
+  }
+  .floating-container:hover .floating-button {
+    box-shadow: 0 10px 25px rgba(44, 179, 240, 0.6);
+    -webkit-transform: translatey(5px);
+            transform: translatey(5px);
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  } */
+
+  .animate1{
+    -webkit-animation: come-in 0.4s forwards 0.2s;
+            animation: come-in 0.4s forwards 0.2s;
+  }
+  .animate2{
+    -webkit-animation: come-in 0.4s forwards 0.4s;
+            animation: come-in 0.4s forwards 0.4s;
+  }
+  .animate3{
+    -webkit-animation: come-in 0.4s forwards 0.6s;
+    animation: come-in 0.4s forwards 0.6s;
+  }
+
+  /* .floating-container:hover .element-container .float-element:nth-child(1) {
+    -webkit-animation: come-in 0.4s forwards 0.2s;
+            animation: come-in 0.4s forwards 0.2s;
+  }
+  .floating-container:hover .element-container .float-element:nth-child(2) {
+    -webkit-animation: come-in 0.4s forwards 0.4s;
+            animation: come-in 0.4s forwards 0.4s;
+  }
+  .floating-container:hover .element-container .float-element:nth-child(3) {
+    -webkit-animation: come-in 0.4s forwards 0.6s;
+            animation: come-in 0.4s forwards 0.6s;
+  } */
+  .floating-container .floating-button {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    bottom: 0;
+    border-radius: 50%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    color: black;
+    /* line-height: 65px; */
+    text-align: center;
+    /* font-size: 23px; */
+    z-index: 100;
+    box-shadow:  0px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+
+  .rotate{
+    animation: rotate forwards 0.4s;
+  }
+  .rotate-back{
+    animation: rotate-back forwards 0.4s;
+  }
+
+  .floating-container .floating-button div{
+    width: 100%;
+    height: 100%;
+    background-image: url('../assets/plus.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    /* transform: rotateZ(45deg); */
+  }
+
+  .floating-container .float-element {
+    position: relative;
+    display: block;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 15px 20px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 50px;
+    z-index: 0;
+    opacity: 0;
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+    cursor: pointer;
+  }
+
+
+
+  .floating-container .float-element .material-icons {
+    vertical-align: middle;
+    font-size: 16px;
+  }
+  .floating-container a:nth-child(1) .float-element {
+    background: #fff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-image:url('../assets/WhatsApp.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.floating-container a:nth-child(2) .float-element {
+    background: #fff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-image:url('../assets/Facebook.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.floating-container a:nth-child(3) .float-element {
+    background: #fff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-image:url('../assets/Instagram.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+  } 
+
+  .floating-container .element-container{
+    display: flex;
+    flex-direction: row;
+    width: max-content;
+    position: relative;
+    top: 235px;
+    right: 270px;
+  }

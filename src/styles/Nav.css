@@ -1,0 +1,51 @@
+@font-face {
+    font-family: untitled light;
+    src: url('../../public/font/UntitledSans-Light.otf');
+}
+
+.navbar{
+    z-index: 100;
+}
+
+.brand-start{
+    visibility: hidden;
+    position: absolute;
+}
+
+.nav-item a{
+    font-family: untitled light;
+    font-weight: 500;
+}
+
+.nav-item .nav-link{
+    color: #000;
+    font-size: 1.15rem;
+}
+
+.nav-item .nav-link:hover{
+    color: #A0A00D;
+}
+
+.nav-link.active {
+    color: #A5A506;
+}
+
+@media only screen and (max-width: 990px){
+
+    .navbar{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        background-color: #fff;
+    }
+
+    .brand-start{
+        visibility: visible;
+        position: relative;
+    }
+
+    .brand-end{
+        visibility: hidden;
+        position: absolute;
+    }
+}
